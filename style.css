@@ -1,0 +1,113 @@
+header{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: brown;
+    width: 100%;
+}
+header > .container > h1 {
+    color: white;
+    margin-left: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 45px;
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.8));
+}
+#barra_de_nav {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+#barra_de_nav > li {
+    color: white;
+    padding-left: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.8));
+}
+#barra_de_nav > li > a{
+    color: white;
+    text-decoration: none;
+}
+#sobre{
+    padding: 20px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.container{
+    display: flexbox;
+    justify-content: center;
+}
+body{
+    display: flexbox;
+    justify-content: center;
+    margin:0;
+    padding: 0;
+}
+#loja{
+    padding-right: 20px;
+}
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    padding: 3px 0;
+}
+#contato_loc{
+    display: flex;
+    justify-content: space-around;
+}
+#contato{
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+#contato > textarea{
+    resize: none;
+    margin-bottom: 5px;
+}
+.infos{
+    margin: 0 15px;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+}
+h3{
+    margin: 0;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+}
+.infos > p{
+    margin: 0;
+}
+.icon{
+    height: 30px;
+    margin: 3px;
+}
+#contato > label{
+    font-weight: bold;
+    margin: 3px;
+}
+#contato > input{
+    height: 30px;
+    padding: 3px;
+    margin-bottom: 3px;
+}
+.button{
+    height: 40px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 5px 0;
+    background-color: brown;
+}
